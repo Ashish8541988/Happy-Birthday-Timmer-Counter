@@ -1,0 +1,104 @@
+.abc{
+    margin: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+    text-transform: capitalize;
+    /* background-color: black; */
+    
+    
+}
+body{
+    background-image:url("https://th.bing.com/th/id/R.cbb2b9a202358076c7041b624e96563f?rik=prhGoWTH3T2JeA&riu=http%3a%2f%2fwww.techtapper.com%2fwp-content%2fuploads%2f2014%2f09%2fColorful-Wallpapers-Top-iPhone-6-Plus-Wallpapers.jpg&ehk=YkIZENTxEoyOwIaoum%2bnO%2bypNVKtDSnrt5rM8Zu%2bmsE%3d&risl=&pid=ImgRaw&r=0");
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.days{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.rem{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.day{
+    font-size: medium;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+@media(max-width: 700px){
+    .days{
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        
+    }
+    .abc{
+        margin-top: 60%;
+    width: 70%;
+    
+    margin-right: 40px;
+    }
+    .item{
+        width: 100%;
+        display: flex;
+    }
+
+    }
+    @media(max-width: 700px){
+        .input{
+        margin-right: 100%;
+        
+        }
+        .text11{
+           width: max-content;
+            
+        }
+    }
+
+.text11{
+    width: 95%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    justify-content: center;
+    outline: none;
+}
+.input{
+    margin: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+    text-transform: capitalize;
+}
+.mybtn{
+    background-color: rgb(224, 22, 22);
+    border: none;
+    height: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    letter-spacing: .5rem;
+    width: min-content;
+    
+}
+.Ashish{
+    text-align: center;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+}
